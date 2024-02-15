@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Post</title>
+</head>
+<body>
+    <h2>Add New Post</h2>
+    <!-- Form for adding new posts -->
+    <form action="/add_post/" method="post", enctype = "multipart/form-dat">
+        {% csrf_token %}
+        <label for="title">Title:</label><br>
+        <input required type="text" id="title" name="title"><br><br>
+        
+       
+        
+        <label for="author">Author:</label><br>
+        <input required type="text" id="author" name="author"><br><br>
+        
+        <label for="published_date">Published Date:</label><br>
+        <input required type="date" id="published_date" name="published_date"><br><br>
+        
+        <input  type="submit" value="Submit">
+    </form>
+</body>
+</html>

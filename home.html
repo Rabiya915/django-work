@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!-- Add your CSS styles here -->
+    <style>
+        /* Add your CSS styles here */
+        /* For demonstration purposes, you can add some basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        section {
+            width: 100%;
+            max-width: 800px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+        }
+        .login-container {
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .login-link,
+        .logout-link {
+            margin-left: 10px;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .login-link:hover,
+        .logout-link:hover {
+            color: #666;
+        }
+        .half-width {
+            width: 100%;
+        }
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        /* Style anchor links */
+        a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Rabiya's Blog</h1>
+    </header>
+
+    <div class="login-container">
+        <a href="/logout" class="logout-link">Logout</a>
+    </div>
+
+    
+
+    <main>
+        <section id="about-us" class="half-width">
+            <h2 class="section-title">About Us</h2>
+            <!-- Add about us content here -->
+            <p style="font-family: Verdana, Geneva, sans-serif;">
+                Welcome to our book blog, where the love for literature thrives and stories come alive! We're a passionate community dedicated to exploring the vast world of books. Through insightful reviews, engaging discussions, and literary recommendations, we aim to spark curiosity and inspire reading journeys.
+
+                At our core, we believe in the transformative power of storytelling. Whether you're a seasoned reader or just beginning your literary adventure, our platform is your heaven. From classic literature to contemporary gems, we celebrate the diverse voices and narratives that enrich our lives.
+                
+                Join us as we dive into the pages of beloved classics, uncover hidden literary gems, and engage in meaningful conversations about the books that shape our world. Together, let's embark on a journey of discovery, imagination, and endless possibilities through the joy of reading.
+            </p>
+        </section>
+        <section id="books" class="half-width">
+            <!-- Make the section a clickable link -->
+            <a href="book.html">
+                <h2 class="section-title">Books</h2>
+                <!-- Add books content here -->
+                <p>Explore our collection of recommended books and discover your next literary adventure.</p>
+            </a>
+        </section>
+        <section id="new-posts">
+            <a href="login.html">
+            <h2 class="section-title">Add New Posts</h2>
+            <!-- Add new post form or link here -->
+            <p>You can add new posts here.</p>
+            </a>
+        </section>
+        <section id="contact-us">
+            <h2 class="section-title">Contact Us</h2>
+            <!-- Add contact us form or information here -->
+            <p>For inquiries, please email us at <a href="mailto:mohammadrabiyabathul@p2fsemi.in">mohammadrabiyabathul@p2fsemi.in</a> or call us at +91 123456789.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Rabiya's Blog. All Rights Reserved</p>
+    </footer>
+</body>
+</html>
